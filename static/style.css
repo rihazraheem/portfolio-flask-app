@@ -1,0 +1,94 @@
+/* --- General Layout Improvements --- */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background: #f9fafb;
+  color: #1f2937;
+}
+
+/* Reduce padding in header */
+header {
+  background: rgba(255,255,255,0.9);
+  backdrop-filter: blur(8px);
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+  padding: 0.6rem 2rem; /* smaller header */
+  position: sticky;
+  top: 0;
+}
+
+/* Nav link spacing */
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #0ea5e9;
+  font-weight: 500;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Tighter container padding */
+.container {
+  max-width: 800px;
+  margin: 4rem auto; /* more balanced vertical spacing */
+  padding: 1rem;
+  text-align: left;
+}
+
+/* Slightly smaller headline */
+h1 {
+  font-size: 2rem;
+  color: #111827;
+  margin-bottom: 0.75rem;
+}
+
+/* Paragraph spacing */
+p {
+  line-height: 1.6;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* Card, Button, Footer */
+.card {
+  background: white;
+  border-radius: 1rem;
+  padding: 1.25rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  margin-bottom: 1rem;
+}
+
+/* --- Buttons --- */
+.btn {
+  display: block;           /* stacked vertically */
+  padding: 8px 16px;        /* smaller padding */
+  border-radius: 6px;
+  border: none;
+  background: #0ea5e9;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  width: fit-content;
+  margin-bottom: 10px;      /* space between buttons */
+  transition: background 0.2s ease;
+}
+
+.btn:hover {
+  background: #0284c7;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.85rem;
+  color: #6b7280;
+  margin-top: 3rem;
+}
+
+/* --- Optional: vertically center main content on home page --- */
+main.container {
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

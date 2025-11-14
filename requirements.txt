@@ -1,0 +1,19 @@
+certifi==2021.5.30
+click==8.0.3
+colorama==0.4.5
+dataclasses @ file:///tmp/build/80754af9/dataclasses_1614363715916/work
+Flask @ file:///opt/conda/conda-bld/flask_1648041541647/work
+Flask-SQLAlchemy @ file:///tmp/build/80754af9/flask-sqlalchemy_1616180561581/work
+greenlet @ file:///C:/ci/greenlet_1628888274120/work
+gunicorn==21.2.0
+importlib-metadata @ file:///C:/ci/importlib-metadata_1631916884109/work
+itsdangerous @ file:///tmp/build/80754af9/itsdangerous_1621432558163/work
+Jinja2 @ file:///opt/conda/conda-bld/jinja2_1647436528585/work
+MarkupSafe @ file:///C:/ci/markupsafe_1621528358854/work
+packaging==21.3
+pyparsing==3.0.7
+SQLAlchemy @ file:///C:/ci/sqlalchemy_1626949062658/work
+typing_extensions @ file:///opt/conda/conda-bld/typing_extensions_1647553014482/work
+Werkzeug @ file:///opt/conda/conda-bld/werkzeug_1645628268370/work
+wincertstore==0.2
+zipp @ file:///tmp/build/80754af9/zipp_1633618647012/work

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Login</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <main class="container">
+        <h1>🔒 Admin Login</h1>
+        
+        {% with messages = get_flashed_messages() %}
+          {% if messages %}
+            <div style="color: red; margin-top: 10px; margin-bottom: 20px; font-weight: bold;">
+                {{ messages[0] }}
+            </div>
+          {% endif %}
+        {% endwith %}
+
+        <form method="POST" action="/admin/login" class="card">
+            
+            <label>Username:<br>
+                <input type="text" name="username" required>
+            </label><br><br>
+            
+            <label>Password:<br>
+                <input type="password" name="password" required>
+            </label><br><br>
+            
+            <button type="submit" class="btn">Log In</button>
+        </form>
+    </main>
+</body>
+</html>

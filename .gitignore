@@ -1,0 +1,21 @@
+﻿# Python / Flask
+__pycache__/
+*.pyc
+instance/
+.env
+
+# Virtual environments
+venv/
+env/
+
+# Databases
+*.db
+message.db
+messages.db
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Render build files
+.build/
