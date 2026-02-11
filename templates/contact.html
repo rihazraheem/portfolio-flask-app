@@ -22,20 +22,7 @@
             <strong>Location:</strong> Alappuzha, Kerala, India</p>
             <p><a href="https://github.com/rihazraheem" target="_blank">GitHub</a> | <a href="https://www.linkedin.com/in/rihaz-raheem" target="_blank">LinkedIn</a></p>
         </div>
-        <div class="card">
-            <h3>Send me a message</h3>
-            <form action="/send" method="POST">
-              <label>Name:<br><input type="text" name="name" required></label><br>
-              <label>Email:<br><input type="email" name="email" required></label><br>
-              <label>Message:<br><textarea name="message" required></textarea></label><br>
-              <button type="submit" class="btn">Send Message</button>
-            </form>
-            {% with messages = get_flashed_messages() %}
-              {% if messages %}
-            <div style="margin-top:10px; color:green;">{{ messages[0] }}</div>
-              {% endif %}
-                {% endwith %}
-            </div>
+
     </main>
     <footer>© 2025 Rihaz Raheem</footer>
 </body>
